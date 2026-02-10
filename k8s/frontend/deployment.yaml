@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: YOUR_DOCKERHUB_USERNAME/workout-frontend:latest
+          image: rade22/workout-frontend:latest
           ports:
             - containerPort: 80
